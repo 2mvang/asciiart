@@ -6,9 +6,9 @@ def getAsciiArt(text, font):
     print("Font:", font)
     print(r.text)
 
-data = requests.get('http://artii.herokuapp.com/fonts_list')
+# data = requests.get('http://artii.herokuapp.com/fonts_list')
 # print(data)
-fontsArray = data.text.split('\n')
+# fontsArray = data.text.split('\n')
 
 text = input('ASCII Art Text > ')
 font = input('ASCII Art Font > ')
